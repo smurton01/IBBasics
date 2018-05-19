@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myButton: UIButton!
     @IBAction func buttonPressed(_ sender: Any) {
+        print("The button was pressed")
     }
     override func viewDidLoad() {
         myButton.setTitleColor(.red, for: .normal)
