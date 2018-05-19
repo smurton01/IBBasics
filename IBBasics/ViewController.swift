@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var myButton: UIButton!
+    @IBAction func buttonPressed(_ sender: Any) {
+    }
     override func viewDidLoad() {
         myButton.setTitleColor(.red, for: .normal)
         super.viewDidLoad()
