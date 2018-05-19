@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myButton: UIButton!
     override func viewDidLoad() {
+        myButton.setTitleColor(.red, for: .normal)
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
